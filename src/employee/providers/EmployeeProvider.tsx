@@ -1,6 +1,6 @@
 // context/EmployeeContext.tsx
 import React, { createContext, useState, ReactNode } from "react";
-import { IEmployee } from "./models/employee.interface";
+import { IEmployee } from "../models/employee.interface";
 
 // Define the context type
 export interface EmployeeContextType {

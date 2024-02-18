@@ -8,8 +8,8 @@ import HomeWorkOutlinedIcon from "@mui/icons-material/HomeWorkOutlined";
 
 export default function LoginAppBar() {
   return (
-    <Box sx={{ flexGrow: 1 }}>
-      <AppBar position="fixed" color="transparent">
+    <Box sx={{ flexGrow: 1, zIndex: 9 }}>
+      <AppBar position="fixed" color="default">
         <Toolbar variant="dense">
           <IconButton
             size="large"

@@ -1,5 +1,8 @@
 import { useContext } from "react";
-import { EmployeeContext, EmployeeContextType } from "../EmployeeProvider";
+import {
+  EmployeeContext,
+  EmployeeContextType,
+} from "../providers/EmployeeProvider";
 
 const useEmployeeContext = (): EmployeeContextType => {
   const context = useContext(EmployeeContext);
